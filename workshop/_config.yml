@@ -21,7 +21,7 @@
 title: De-Identification by Design
 email: data.services@nyu.edu
 description: A workshop on managing access to large data for IASSIST 2021.
-baseurl: "/workshop" # the subpath of your site, e.g. /blog
+baseurl: "/iassist2021" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: nyudataservices
 #github_username:  jekyll
