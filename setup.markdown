@@ -1,26 +1,44 @@
 ---
-layout: page
-title: Setup
+layout: default
+title: Setup & Install
 permalink: /setup/
+nav_order: 2
 ---
 
 ## Getting ready for the workshop
 
 In our workshop, we will be using Python 3 and the Jupyter Notebook environment in order to work with our sample data. We highly encourage participants to install everything in advance of the session and download the sample files, if possible. If anyone gets stuck, don't hesitate to reach out to the workshop conveners, Andrew Battista, Katie Wissel, and Daniel Hickey.
 
-### Download and Install Python with the Anaconda 3 distribution
+### Table of Contents
+- [Installation instructions](#installation-instructions)
+- [Getting the data](#getting-the-data)
+- [Troubleshooting](#troubleshooting)
 
-Although there are many ways to install and run Python, and still many more ways to install the Anaconda 3 distribution and accompanying libraries, we are going to recommend using the appropriate [graphical installer from Anaconda](https://docs.anaconda.com/anaconda/install/).
+### Installation instructions
 
-Once you have downloaded the install package, follow the instructions. If you're installing on a Mac OS, [pay attention to the instructions and screenshots](https://docs.anaconda.com/anaconda/install/mac-os/). Specifically, when you get to step 6, select "install for me only" and install it in a location on your personal user account. Similarly, if you are [installing on Windows, select "just me"](https://docs.anaconda.com/anaconda/install/windows/). We recommend following the advice of not adding Anaconda to your PATH environment variable. However, **please do select the box that registers your Anaconda as the default Python 3.x.** You may find these [instructions and video tutorial](https://datacarpentry.org/python-ecology-lesson/setup.html) to be helpful.
+1. **Download and Install Python with the Anaconda 3 distribution.**
+  Although there are many ways to install and run Python, and still many more ways to install the Anaconda 3 distribution and accompanying libraries, we are going to recommend using the appropriate graphical installer from Anaconda.
+    + __Mac__ [instructions](https://docs.anaconda.com/anaconda/install/mac-os/)  (*Note: When you get to step 6, select "install for me only" and install it in a location on your personal user account.*)
+    + __Windows__ [instructions](https://docs.anaconda.com/anaconda/install/windows/) (*Note: Make sure to select "just for me" and select the box that registers your Anaconda as the default Python 3.x. You may find these [instructions and video tutorial](https://datacarpentry.org/python-ecology-lesson/setup.html) to be helpful.*)
+    + __Linux__ [instructions](https://docs.anaconda.com/anaconda/install/linux/)
 
-### Install the pyjanitor library
 
-Our workshop will be using several libraries that come standard with the Anaconda distribution, but one does not: [pyjanitor](https://pyjanitor.readthedocs.io/installation.html). In order to install it, we recommend using the conda command. Open up a bash prompt, either Terminal for Mac or Git Bash or Powershell for Windows and run:
+2. **Install the `pyjanitor` library**  
+  Our workshop will be using several libraries that come standard with the Anaconda distribution, but one does not: [pyjanitor](https://pyjanitor.readthedocs.io/installation.html). In order to install it, we recommend using the `conda` command.
+  + __On Mac or Linux:__ Open a bash prompt, e.g., `Terminal` and run the command
+  ```
+  conda install pyjanitor -c conda-forge
+  ```
+  + __On Windows:__ Your new Anacondas installation should have installed a program called `Anaconda Prompt`. Open it and run the command
+  ```
+  conda install pyjanitor -c conda-forge
+  ```
 
-```
-conda install pyjanitor -c conda-forge
-```
-### Troubleshooting if Conda is not found
+### Getting the Data
+__Download the contents of this private [Box folder](https://nyu.app.box.com/folder/135087745557).__ To do so, you will need a Box account using the email address you used when registering for the workshop.
+
+### Troubleshooting
 
 We have discovered that problems can occur when users have previously installed Anaconda 3 on their machine. If this is happening, the best thing to do is uninstall your Anaconda 3 and then re-install it, making sure you have followed the above directions.
+
+[TO DO]

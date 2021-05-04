@@ -1,7 +1,8 @@
 ---
-layout: page
+layout: default
 title: About
 permalink: /about/
+nav_order: 1
 ---
 
 ## De-Identification by Design: Creating Ethical Data Derivatives with Python
