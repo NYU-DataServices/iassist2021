@@ -10,11 +10,12 @@ Research and proprietary data often contain personally identifiable information,
 
 While some types of information and data are legally protected, other social data, such as home mortgage files, voter registration files, and tax parcel records are public and are often augmented with modeled indicators, such as religious belief or personal income, that may not represent the reality of people’s lives. Library information and data specialists must develop infrastructure, workflows, and policies to ensure the ethical stewardship and use of these datasets.
 
-Learning Objectives
-1) Develop fluency with generating random samples in order to make analysis with large files more manageable
+### Workshop Learning Objectives
 
-2) Know how to assess the identification risk of specific variables within a dataset in order to protect the identity of human subjects
+1. Develop fluency with generating random samples in order to make analysis with large files more manageable
 
-3) Create a Jupyter Notebook workflow that enables cleaning, redacting, and sharing data for research use
+2. Know how to assess the identification risk of specific variables within a dataset in order to protect the identity of human subjects
 
-4) Learn some fundamental Pandas features for exploring, cleaning, and transforming data
+3. Create a Jupyter Notebook workflow that enables cleaning, redacting, and sharing data for research use
+
+4. Learn some fundamental Pandas features for exploring, cleaning, and transforming data
