@@ -12,7 +12,7 @@ In our workshop, we will be using Python 3 and the Jupyter Notebook environment 
 
 Although there are many ways to install and run Python, and still many more ways to install the Anaconda 3 distribution and accompanying libraries, we are going to recommend using the appropriate [graphical installer from Anaconda](https://docs.anaconda.com/anaconda/install/).
 
-Once you have downloaded the install package, follow the instructions. If you're installing on a Mac OS, [pay attention to the instructions and screenshots](https://docs.anaconda.com/anaconda/install/mac-os/). Specifically, when you get to step 6, select "install for me only" and install it in a location on your personal user account. Similarly, if you are [installing on Windows, select "just me"](https://docs.anaconda.com/anaconda/install/windows/). We recommend following the advice of not adding Anaconda to your PATH environment variable.
+Once you have downloaded the install package, follow the instructions. If you're installing on a Mac OS, [pay attention to the instructions and screenshots](https://docs.anaconda.com/anaconda/install/mac-os/). Specifically, when you get to step 6, select "install for me only" and install it in a location on your personal user account. Similarly, if you are [installing on Windows, select "just me"](https://docs.anaconda.com/anaconda/install/windows/). We recommend following the advice of not adding Anaconda to your PATH environment variable. However, **please do select the box that registers your Anaconda as the default Python 3.x.** You may find these [instructions and video tutorial](https://datacarpentry.org/python-ecology-lesson/setup.html) to be helpful.
 
 ### Install the pyjanitor library
 
@@ -21,6 +21,6 @@ Our workshop will be using several libraries that come standard with the Anacond
 ```
 conda install pyjanitor -c conda-forge
 ```
-### Troubleshooting
+### Troubleshooting if Conda is not found
 
-Let us know in advance of the workshop if you have questions.
+We have discovered that problems can occur when users have previously installed Anaconda 3 on their machine. If this is happening, the best thing to do is uninstall your Anaconda 3 and then re-install it, making sure you have followed the above directions.
