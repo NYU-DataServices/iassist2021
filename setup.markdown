@@ -7,7 +7,7 @@ nav_order: 2
 
 ## Getting ready for the workshop
 
-In our workshop, we will be using Python 3 and the Jupyter Notebook environment in order to work with our sample data. We highly encourage participants to install everything in advance of the session and download the sample files, if possible. If anyone gets stuck, don't hesitate to reach out to the workshop conveners, Andrew Battista, Katie Wissel, and Daniel Hickey.
+In our workshop, we will be using Python 3 and the Jupyter Notebook environment in order to work with our data. We highly encourage participants to install everything in advance of the session and download the sample files, if possible. If anyone gets stuck, don't hesitate to reach out to the workshop conveners, Andrew Battista, Katie Wissel, and Daniel Hickey.
 
 ### Table of Contents
 - [Installation instructions](#installation-instructions)
@@ -35,10 +35,10 @@ In our workshop, we will be using Python 3 and the Jupyter Notebook environment 
   ```
 
 ### Getting the Data
-__Download the contents of this private [Box folder](https://nyu.app.box.com/folder/135087745557).__ To do so, you will need a Box account using the email address you used when registering for the workshop.
+__Download the contents of this private [Box folder](https://nyu.app.box.com/folder/135087745557).__ To do so, you will need a Box account using the email address you used when registering for the workshop. If this is not tenable, please reach out and we will find a different way to give you the data.
 
 ### Troubleshooting
 
 We have discovered that problems can occur when users have previously installed Anaconda 3 on their machine. If this is happening, the best thing to do is uninstall your Anaconda 3 and then re-install it, making sure you have followed the above directions.
 
-[TO DO]
+The installation of Anaconda 3 is fairly straightforward, but the Pyjanitor library is not standard and must be installed on top of Anaconda. In our experience, installing cleanly for only a single user on your machine should do the trick.

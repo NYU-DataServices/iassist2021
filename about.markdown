@@ -20,3 +20,13 @@ While some types of information and data are legally protected, other social dat
 3. Create a Jupyter Notebook workflow that enables cleaning, redacting, and sharing data for research use
 
 4. Learn some fundamental Pandas features for exploring, cleaning, and transforming data
+
+### Workshop Presenters
+
+- Andrew Battista
+- Katie Wissel
+- Daniel Hickey
+
+### Acknowledgements
+
+Thanks to our colleagues, Marii Nyrop and Vicky Rampin, for help with setting up this website and for advising us on best steps to take for setting up the working environments.
