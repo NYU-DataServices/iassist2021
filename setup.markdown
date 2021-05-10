@@ -35,7 +35,7 @@ In our workshop, we will be using Python 3 and the Jupyter Notebook environment 
   ```
 
 ### Getting the Data
-__Download the contents of this private [Box folder](https://nyu.app.box.com/folder/135087745557).__ To do so, you will need a Box account using the email address you used when registering for the workshop. If this is not tenable, please reach out and we will find a different way to give you the data.
+__Download the contents of this private [Box folder](https://nyu.app.box.com/folder/135087745557).__ To do so, you will need a Box account [using the email address](https://account.box.com/login?redirect_url=/folder/135087745557) you used when registering for the workshop. If this is not tenable, please reach out and we will find a different way to give you the data.
 
 ### Troubleshooting
 
