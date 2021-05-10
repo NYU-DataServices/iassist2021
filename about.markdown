@@ -21,6 +21,10 @@ While some types of information and data are legally protected, other social dat
 
 4. Learn some fundamental Pandas features for exploring, cleaning, and transforming data
 
+### Workshop Code of conduct
+
+This workshop is dedicated to being a harassment-free experience for everyone, regardless of gender, gender identity and expression, age, sexual orientation, disability, physical appearance, body size, race, ethnicity, or religion (or lack thereof). We will not tolerate harassment of participants in any form. Sexual language and imagery is not appropriate for any venue associated with this workshop. Workshop participants violating these rules may be sanctioned or expelled.
+
 ### Workshop Presenters
 
 - Andrew Battista (ab6137@nyu.edu)
