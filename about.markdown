@@ -23,9 +23,9 @@ While some types of information and data are legally protected, other social dat
 
 ### Workshop Presenters
 
-- Andrew Battista
-- Katie Wissel
-- Daniel Hickey
+- Andrew Battista (ab6137@nyu.edu)
+- Katie Wissel (kam245@nyu.edu)
+- Daniel Hickey (dh142@nyu.edu)
 
 ### Acknowledgements
 
